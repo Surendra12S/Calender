@@ -1,0 +1,39 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 650px;
+    background-color: #00539CFF;
+}
+.calender{
+
+    background-color: white;
+    width: 220px;
+    height: 250px;
+    border-radius: 10px;
+    text-align: center;
+    overflow: hidden;
+    }
+
+.month{
+    background-color:#EEA47FFF;
+    margin: 0;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 15px;
+    font-size: 25px;
+    font-weight: bolder;
+}    
+.day-name{
+    font-size: 18px;
+    color: gray;
+}
+
+.day{
+    font-size: 80px;
+    font-weight: bolder;
+    margin: 0%;
+}
+
+.year{
+    color: gray;
+}
